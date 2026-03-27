@@ -76,8 +76,11 @@ namespace sistema_vendas
 
         private void cadastrar_button_Click(object sender, EventArgs e)
         {
+        }
+            private void btnCadastrar_Click(object sender, EventArgs e)
+        {
             // 1º: Criar a variável com o texto do comando SQL
-            string sql = "INSERT INTO tb_chamados (nome, canal_contato, assunto, prioridade, status, cidade_cliente, data_abertura, observacao_opcional) " +
+            string sql = "INSERT INTO tb_chamados (nome, canal_contato, assunto, prioridade, status, cidade, data_abertura, observacao_o) " +
                          "VALUES (@nome, @canal, @assunto, @prioridade, 'aberto', @cidade, NOW(), @obs)";
 
             // 2º: Abrir a conexão e preparar o comando
@@ -95,108 +98,19 @@ namespace sistema_vendas
                     cmd.Parameters.AddWithValue("@cidade", text_cidade.Text);
                     cmd.Parameters.AddWithValue("@obs", text_observacao.Text);
 
-
+                    
                     cmd.ExecuteNonQuery();
 
                     MessageBox.Show("Registro inserido com sucesso!");
 
-
-
+                 
+                    
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Erro ao salvar: " + ex.Message);
                 }
             }
-        }
-            private void btnCadastrar_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void cadatrar_panel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel22_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label_nome_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel9_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel10_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel13_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel7_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel12_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel16_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel19_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel18_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel21_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label2_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cadastrar_Load(object sender, EventArgs e)
-        {
-
         }
     }
     }

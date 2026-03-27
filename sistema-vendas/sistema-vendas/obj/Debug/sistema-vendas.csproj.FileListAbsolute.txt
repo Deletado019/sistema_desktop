@@ -2,7 +2,6 @@ C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\bin\Debug\s
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\bin\Debug\sistema-vendas.exe
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\bin\Debug\sistema-vendas.pdb
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema-vendas.csproj.AssemblyReference.cache
-C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.Form1.resources
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.Properties.Resources.resources
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema-vendas.csproj.GenerateResource.cache
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema-vendas.csproj.CoreCompileInputs.cache
@@ -44,3 +43,5 @@ C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\bin\Debug\S
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema-.ACF6EFBF.Up2Date
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.chamados.resources
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.cadastrar.resources
+C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.cadastro_funcionarios.resources
+C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.FormPrincipal.resources

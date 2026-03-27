@@ -105,6 +105,7 @@
             this.cadatrar_panel.Name = "cadatrar_panel";
             this.cadatrar_panel.Size = new System.Drawing.Size(536, 655);
             this.cadatrar_panel.TabIndex = 4;
+            this.cadatrar_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.cadatrar_panel_Paint);
             // 
             // cadastrar_button
             // 
@@ -151,6 +152,7 @@
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(64, 61);
             this.panel21.TabIndex = 3;
+            this.panel21.Paint += new System.Windows.Forms.PaintEventHandler(this.panel21_Paint);
             // 
             // panel22
             // 
@@ -159,6 +161,7 @@
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(73, 61);
             this.panel22.TabIndex = 2;
+            this.panel22.Paint += new System.Windows.Forms.PaintEventHandler(this.panel22_Paint);
             // 
             // label2
             // 
@@ -170,6 +173,7 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Observação";
             this.label2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click_2);
             // 
             // panel17
             // 
@@ -200,6 +204,7 @@
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(64, 23);
             this.panel18.TabIndex = 3;
+            this.panel18.Paint += new System.Windows.Forms.PaintEventHandler(this.panel18_Paint);
             // 
             // panel19
             // 
@@ -208,6 +213,7 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(73, 23);
             this.panel19.TabIndex = 2;
+            this.panel19.Paint += new System.Windows.Forms.PaintEventHandler(this.panel19_Paint);
             // 
             // label_cidade
             // 
@@ -265,6 +271,7 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(73, 23);
             this.panel16.TabIndex = 2;
+            this.panel16.Paint += new System.Windows.Forms.PaintEventHandler(this.panel16_Paint);
             // 
             // Label_prioridade
             // 
@@ -306,6 +313,7 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(64, 23);
             this.panel12.TabIndex = 3;
+            this.panel12.Paint += new System.Windows.Forms.PaintEventHandler(this.panel12_Paint);
             // 
             // panel13
             // 
@@ -314,6 +322,7 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(73, 23);
             this.panel13.TabIndex = 2;
+            this.panel13.Paint += new System.Windows.Forms.PaintEventHandler(this.panel13_Paint);
             // 
             // assunto
             // 
@@ -355,6 +364,7 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(64, 23);
             this.panel9.TabIndex = 3;
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // panel10
             // 
@@ -363,6 +373,7 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(73, 23);
             this.panel10.TabIndex = 2;
+            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
             // 
             // label_canal
             // 
@@ -406,6 +417,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(64, 23);
             this.panel7.TabIndex = 3;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // panel5
             // 
@@ -425,6 +437,7 @@
             this.label_nome.TabIndex = 1;
             this.label_nome.Text = "Nome";
             this.label_nome.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label_nome.Click += new System.EventHandler(this.label_nome_Click);
             // 
             // panel3
             // 
@@ -434,6 +447,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(64, 566);
             this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // panel2
             // 
@@ -442,6 +456,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(58, 566);
             this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel6
             // 
@@ -464,6 +479,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Cadastrar Chamados";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // cadastrar
             // 
@@ -473,6 +489,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "cadastrar";
             this.Text = "cadastrar";
+            this.Load += new System.EventHandler(this.cadastrar_Load);
             this.panel1.ResumeLayout(false);
             this.cadatrar_panel.ResumeLayout(false);
             this.panel20.ResumeLayout(false);

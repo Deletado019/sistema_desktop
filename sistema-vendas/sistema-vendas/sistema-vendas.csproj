@@ -101,6 +101,12 @@
     <Compile Include="cadastrar.Designer.cs">
       <DependentUpon>cadastrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="cadastro_funcionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastro_funcionarios.Designer.cs">
+      <DependentUpon>cadastro_funcionarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="chamados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cadastrar.resx">
       <DependentUpon>cadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastro_funcionarios.resx">
+      <DependentUpon>cadastro_funcionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="chamados.resx">
       <DependentUpon>chamados.cs</DependentUpon>
