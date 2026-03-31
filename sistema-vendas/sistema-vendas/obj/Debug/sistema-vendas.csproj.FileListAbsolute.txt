@@ -45,3 +45,4 @@ C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\s
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.cadastrar.resources
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.cadastro_funcionarios.resources
 C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.FormPrincipal.resources
+C:\Users\adrian.gpbarbosa\source\repos\sistema-vendas\sistema-vendas\obj\Debug\sistema_vendas.Form4.resources

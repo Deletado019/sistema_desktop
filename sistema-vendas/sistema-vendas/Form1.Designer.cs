@@ -36,7 +36,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.button6 = new System.Windows.Forms.Button();
             this.Cadastro = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Dashboard = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -109,22 +109,22 @@
             this.Cadastro.UseVisualStyleBackColor = true;
             this.Cadastro.Click += new System.EventHandler(this.Cadastro_Click_1);
             // 
-            // button1
+            // Dashboard
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 3;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button1.Location = new System.Drawing.Point(226, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(237, 65);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Faturamento";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Dashboard.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Dashboard.FlatAppearance.BorderSize = 3;
+            this.Dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dashboard.ForeColor = System.Drawing.Color.White;
+            this.Dashboard.Image = ((System.Drawing.Image)(resources.GetObject("Dashboard.Image")));
+            this.Dashboard.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.Dashboard.Location = new System.Drawing.Point(226, 20);
+            this.Dashboard.Name = "Dashboard";
+            this.Dashboard.Size = new System.Drawing.Size(237, 65);
+            this.Dashboard.TabIndex = 2;
+            this.Dashboard.Text = "Dashboard";
+            this.Dashboard.UseVisualStyleBackColor = true;
+            this.Dashboard.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -217,7 +217,7 @@
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.Dashboard);
             this.panel1.Controls.Add(this.Cadastro);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -265,7 +265,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button Cadastro;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Dashboard;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;

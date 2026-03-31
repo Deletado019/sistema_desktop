@@ -29,16 +29,17 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.cadastrar = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.cadastrar = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel_lista = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,33 +53,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1554, 100);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(1354, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 100);
-            this.panel2.TabIndex = 0;
-            // 
-            // cadastrar
-            // 
-            this.cadastrar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cadastrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.cadastrar.FlatAppearance.BorderSize = 2;
-            this.cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cadastrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.cadastrar.Location = new System.Drawing.Point(0, 0);
-            this.cadastrar.Name = "cadastrar";
-            this.cadastrar.Size = new System.Drawing.Size(200, 49);
-            this.cadastrar.TabIndex = 0;
-            this.cadastrar.Text = "Cadastrar Chamados";
-            this.cadastrar.UseVisualStyleBackColor = true;
-            this.cadastrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel3
             // 
@@ -100,21 +74,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Listagem De Chamados";
             // 
-            // panel4
+            // panel2
             // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 27);
-            this.panel4.TabIndex = 1;
-            // 
-            // panel5
-            // 
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 76);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 24);
-            this.panel5.TabIndex = 2;
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(1354, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.TabIndex = 0;
             // 
             // panel6
             // 
@@ -125,17 +94,59 @@
             this.panel6.Size = new System.Drawing.Size(200, 49);
             this.panel6.TabIndex = 3;
             // 
+            // cadastrar
+            // 
+            this.cadastrar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cadastrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.cadastrar.FlatAppearance.BorderSize = 2;
+            this.cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cadastrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cadastrar.Location = new System.Drawing.Point(0, 0);
+            this.cadastrar.Name = "cadastrar";
+            this.cadastrar.Size = new System.Drawing.Size(200, 49);
+            this.cadastrar.TabIndex = 0;
+            this.cadastrar.Text = "Cadastrar Chamados";
+            this.cadastrar.UseVisualStyleBackColor = true;
+            this.cadastrar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(0, 76);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(200, 24);
+            this.panel5.TabIndex = 2;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 27);
+            this.panel4.TabIndex = 1;
+            // 
+            // panel_lista
+            // 
+            this.panel_lista.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_lista.Location = new System.Drawing.Point(0, 100);
+            this.panel_lista.Name = "panel_lista";
+            this.panel_lista.Size = new System.Drawing.Size(1554, 612);
+            this.panel_lista.TabIndex = 1;
+            // 
             // chamados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1554, 712);
+            this.Controls.Add(this.panel_lista);
             this.Controls.Add(this.panel1);
             this.Name = "chamados";
             this.Text = "chamados";
+            this.Load += new System.EventHandler(this.chamados_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -151,5 +162,6 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.FlowLayoutPanel panel_lista;
     }
 }

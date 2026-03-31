@@ -86,9 +86,9 @@
             // 
             this.panel5.Controls.Add(this.tableLayoutPanel1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(112, 55);
+            this.panel5.Location = new System.Drawing.Point(66, 55);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(401, 565);
+            this.panel5.Size = new System.Drawing.Size(447, 565);
             this.panel5.TabIndex = 3;
             // 
             // tableLayoutPanel1
@@ -112,7 +112,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(401, 565);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(447, 565);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -123,7 +123,7 @@
             this.cadastrar_funcionario.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.cadastrar_funcionario.Location = new System.Drawing.Point(3, 473);
             this.cadastrar_funcionario.Name = "cadastrar_funcionario";
-            this.cadastrar_funcionario.Size = new System.Drawing.Size(395, 89);
+            this.cadastrar_funcionario.Size = new System.Drawing.Size(441, 89);
             this.cadastrar_funcionario.TabIndex = 6;
             this.cadastrar_funcionario.Text = "cadastrar";
             this.cadastrar_funcionario.UseVisualStyleBackColor = false;
@@ -283,7 +283,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(3, 97);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(395, 88);
+            this.panel7.Size = new System.Drawing.Size(441, 88);
             this.panel7.TabIndex = 7;
             // 
             // panel14
@@ -292,7 +292,7 @@
             this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel14.Location = new System.Drawing.Point(0, 38);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(395, 53);
+            this.panel14.Size = new System.Drawing.Size(441, 53);
             this.panel14.TabIndex = 1;
             // 
             // email
@@ -300,7 +300,7 @@
             this.email.Dock = System.Windows.Forms.DockStyle.Fill;
             this.email.Location = new System.Drawing.Point(0, 0);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(395, 20);
+            this.email.Size = new System.Drawing.Size(441, 20);
             this.email.TabIndex = 3;
             this.email.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
@@ -310,7 +310,7 @@
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel13.Location = new System.Drawing.Point(0, 0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(395, 38);
+            this.panel13.Size = new System.Drawing.Size(441, 38);
             this.panel13.TabIndex = 0;
             // 
             // label_email
@@ -319,7 +319,7 @@
             this.label_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_email.Location = new System.Drawing.Point(0, 0);
             this.label_email.Name = "label_email";
-            this.label_email.Size = new System.Drawing.Size(395, 38);
+            this.label_email.Size = new System.Drawing.Size(441, 38);
             this.label_email.TabIndex = 4;
             this.label_email.Text = "E-mail";
             this.label_email.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -338,7 +338,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 55);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(112, 565);
+            this.panel3.Size = new System.Drawing.Size(66, 565);
             this.panel3.TabIndex = 1;
             // 
             // panel2
